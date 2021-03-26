@@ -31,6 +31,7 @@ const onSubmit = evt => {
     const newUser = {
         name:createForm.name,
         email:createForm.email,
+        
         password: createForm.password,
         tos: createForm.tos
     }
